@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Desafío JS 1 - Calculando el Total</title>
+</head>
+<body>
+    <aside>
+        <div class="details">
+            <h4>Cantidad: <span id="detalle-cantidad">0</span></h4>
+            <h4>color: <span id="detalle-color"></span></h4>
+            <hr>
+            <h3>Total: $ <span id="total">0</span> </h3>
+        </div>
+    </aside>
+
+
+
+      <div class="cards-container">
+        <div class="cards-content">
+            <div class="card 1">
+                <div class="card-img">
+                    <img src="./assets/img/notebook.png" alt="Notebook 1">
+                    <h2>MSI Ryzen 7</h2>
+                </div>
+                <div class="card-body">
+                    <input id="cantidad" type="number" min="0" placeholder="Cantidad">
+                    <input id="color" type="color" placeholder="Color">
+                </div>
+                <div class="card-footer">
+                    <h4>Precio: $ <span id="precio">1.100.000</span></h4>
+                    <button onclick="{calcular()}">Calcular total</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
